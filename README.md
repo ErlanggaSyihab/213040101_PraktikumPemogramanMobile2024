@@ -1,3 +1,10 @@
+<p align="center">
+    <a href="https://kotlinlang.org" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png" width="300" alt="Kotlin Logo">
+    </a>
+</p>
+
+---
 # PraktikumPemogramanMobile2024
 Ini adalah Repositori Mata Kuliah Praktikum Pemograman Mobile, pada kasus kali ini bahasa yang digunakan adalah Kotlin
 
@@ -13,15 +20,17 @@ Dalam Kotlin, terdapat dua cara untuk mendeklarasikan variabel, yaitu menggunaka
   val nama: String = "Adan"
   nama = "Budi"
   Println(nama)
- penjelasan : Output yang dihasilkan akan Eror mengapa? Karena val tidak bisa menerima nilai ketika nilai awalnya sudah ditentukan. maka kode yang benar adalah :
-        fun main () {
-        val nama : String ="Adan"
-        println(nama)
-      }
+
+---
+penjelasan : Output yang dihasilkan akan Eror mengapa? Karena val tidak bisa menerima nilai ketika nilai awalnya sudah ditentukan. maka kode yang benar adalah :
+
+---
 - VAR Adalah :Variabel yang dideklarasikan dengan var bisa diubah nilainya setelah deklarasi.
   - contoh : fun main () {
   var nama: String = "Adan"
   nama = "Budi"
   Println(nama)
-    penjelasan : dari kode diatas bisa disimpulkan bahwa variabel nama bisa diubah karena menggunakan var, maka hasil output yang keluar dalah Budi.
     }
+
+---
+penjelasan : dari kode diatas bisa disimpulkan bahwa variabel nama bisa diubah karena menggunakan var, maka hasil output yang keluar dalah Budi.
